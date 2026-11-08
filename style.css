@@ -1,0 +1,10 @@
+body { font-family: 'Arial', sans-serif; background: #121212; color: #fff; margin: 0; }
+nav { display: flex; justify-content: space-between; padding: 20px 5%; background: #1a1a1a; }
+.hero { text-align: center; padding: 100px 20px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('construction.jpg'); background-size: cover; }
+.btn { background: #e67e22; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; }
+.services, .projects, .quote { padding: 50px 5%; }
+.cards { display: flex; gap: 20px; }
+.card { background: #1e1e1e; padding: 20px; border-radius: 8px; flex: 1; }
+form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin: auto; }
+input, textarea { padding: 10px; background: #222; border: 1px solid #444; color: white; }
+button { padding: 10px; background: #e67e22; border: none; color: white; cursor: pointer; }
